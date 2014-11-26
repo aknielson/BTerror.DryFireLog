@@ -16,6 +16,8 @@ namespace ConsoleApplication1
             var aaa = ctx.Books.ToList();
             Console.WriteLine(aaa.FirstOrDefault().Title);
 
+            //will this make it to github?
+
 
         }
     }
